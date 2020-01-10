@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    background: #f5f5f5;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 64px;
+    box-sizing: border-box;
+}
+
+.header__wrapper {
+    box-shadow: 0 2px 4px 0 rgba(173, 173, 173, 0.5);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+}
+
+.header__logo {
+    width: 130px;
+    height: 42px;
+    font-family: 'Savoy', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.05;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    margin: 17px 0 23px 31px;
+}
+
+.header__menu img {
+    width: 29px;
+    height: 23px;
+    background-color: #fff;
+}
+
+.header__users img {
+    width: 38.4px;
+    height: 28.8px;
+}
+
+.header__notification img {
+    width: 28px;
+    height: 32px;
+    margin: 0 15px;
+}
+
+.header__user-avatar img {
+    width: 40px;
+    height: 40px;
+}
+
+.header__user-controls {
+    float: right;
+    padding-top: 17px;
+}
+
+.main {
+    display: block;
+}
+
+.main .social__network img {
+    width: 23px;
+    height: 22px;
+}
+
+.network {
+    display: block;
+}
+
+.network-avatar img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin: -85px 0 0 100px;
+}
+
+.network__header img {
+    width: 328px;
+    height: 112px;
+}
+
+h2 {
+    text-align: center;
+    padding: 50px 0 12px 0;
+}
+
+.social__network {
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.social__network img {
+    padding: 0 15px 0 0;
+}
+
+.social__img {
+    text-decoration: none;
+}
+
+.page__view {
+    margin: 0 auto;
+    text-align: left;
+    width: 130px;
+    font-size: 14px;
+    font-family: 'robotomedium';
+}
+
+strong {
+    padding: 0 6px 0 0;
+}
+
+.write__post {
+    border: 13px solid #d8d8d8;
+    border-radius: 23px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.write__post-link {
+    padding: 5px;
+}
+.write__post-link:hover {
+    text-decoration: none;
+}
+.write__post-link::before {
+    content: '';
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/writing.svg);
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.user__profile {
+    display: flex;
+    margin: 24px 0 0;
+}
+
+.stream {
+    background-color: #fff;
+    width: 597px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 24px 0 0;
+}
+
+.network__bg {
+    background-color: #fff;
+}
+
+.trending {
+    max-width: 1207px;
+    background-color: #fff;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    padding: 0 0 0 29px;
+}
+
+.author__name {
+    text-decoration: none;
+    font-family: 'robotomedium';
+    font-size: 16px;
+    line-height: 18px;
+    color: #989898;
+    padding: 0 0 0 16px;
+    /* position: absolute; */
+}
+
+.author__name img {
+    width: 32px;
+}
+
+/* .three {
+    text-decoration: none;
+    float: right;
+    margin: 0 auto;
+    color: #262626;
+    display: block;
+} */
+
+.text {
+    line-height: 28px;
+    font-size: 26px;
+    color: #000;
+    padding: 0 16px;
+    font-family: 'noto_serifregular';
+}
+
+.text img {
+    width: 564px;
+    height: 295px;
+}
+
+.news {
+    padding: 0 22px;
+}
+
+.header__news {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.33px;
+    font-family: 'robotomedium';
+}
+
+.avatar__one img,
+.avatar__two img,
+.avatar__three img, 
+.avatar__four img,
+.avatar__five img,
+.avatar__six img,
+.avatar__seven img,
+.avatar__eight img,
+.avatar__nine img,
+.avatar__ten img {
+    width: 68px;
+    height: 68px;
+}
+
+.avatar__one {
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'noto_serifregular';
+}
+
+.popular {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.header__popular {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.33px;
+    font-family: 'robotomedium';
+}
+
+.popular__img img {
+    width: 42px;
+    height: 42px;
+}
+
+/* .popular__list {
+    display: flex;
+} */
+

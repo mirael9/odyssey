@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Savoy';
+    src: url('savoy_bold.woff2') format('woff2'),
+         url('savoy_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium.woff2') format('woff2'),
+         url('roboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'noto_serifregular';
+    src: url('notoserif-regular.woff2') format('woff2'),
+         url('notoserif-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
