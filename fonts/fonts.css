@@ -4,16 +4,14 @@
          url('savoy_bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'robotomedium';
-    src: url('roboto-medium.woff2') format('woff2'),
-         url('roboto-medium.woff') format('woff');
-    font-weight: normal;
+    font-family: 'robotobold';
+    src: url('Roboto-Bold.woff') format('woff'),
+         url('Roboto-Bold.woff2') format('woff2');
+    font-weight: bold;
     font-style: normal;
-
 }
 
 @font-face {
@@ -22,5 +20,13 @@
          url('notoserif-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+
+@font-face {
+    font-family: 'noto_serifrbold';
+    src: url('NotoSerif-Bold.woff') format('woff'),
+         url('NotoSerif-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
 }

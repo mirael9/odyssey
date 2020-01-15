@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #f5f5f5;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -113,18 +114,24 @@ strong {
 }
 
 .write__post {
-    border: 13px solid #d8d8d8;
-    border-radius: 23px;
+    border: 20px solid #d8d8d8;
     text-align: left;
     width: 100%;
     box-sizing: border-box;
+    background: #d8d8d8;
 }
+
 .write__post-link {
     padding: 5px;
+    background: #fff;
+    display: block;
+    border-radius: 24px;
 }
+
 .write__post-link:hover {
     text-decoration: none;
 }
+
 .write__post-link::before {
     content: '';
     width: 23px;
@@ -142,11 +149,6 @@ strong {
     margin: 24px 0 0;
 }
 
-.stream {
-    background-color: #fff;
-    width: 597px;
-}
-
 .wrapper {
     display: flex;
     padding: 24px 0 0;
@@ -156,13 +158,6 @@ strong {
     background-color: #fff;
 }
 
-.trending {
-    max-width: 1207px;
-    background-color: #fff;
-    margin-left: 20px;
-    width: 100%;
-}
-
 .content {
     width: 100%;
     padding: 0 0 0 29px;
@@ -170,7 +165,7 @@ strong {
 
 .author__name {
     text-decoration: none;
-    font-family: 'robotomedium';
+    font-family: 'robotobold';
     font-size: 16px;
     line-height: 18px;
     color: #989898;
@@ -180,50 +175,116 @@ strong {
 
 .author__name img {
     width: 32px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
 }
-
-/* .three {
-    text-decoration: none;
-    float: right;
-    margin: 0 auto;
-    color: #262626;
-    display: block;
-} */
 
 .text {
-    line-height: 28px;
-    font-size: 26px;
+    line-height: 24px;
+    font-size: 27px;
     color: #000;
     padding: 0 16px;
-    font-family: 'noto_serifregular';
+    /* font-family: 'noto_serifrbold'; */
+    margin: 0;
 }
 
-.text img {
-    width: 564px;
-    height: 295px;
+.popular,
+.new,
+.active {
+    margin-top: 24px;
+    background-color: #fff;
+    padding: 1px 30px;
+    display: block;
+    max-width: 327px;
 }
 
-.news {
-    padding: 0 22px;
-}
-
-.header__news {
+.header__popular,
+.header__new,
+.header__active {
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 1.33px;
-    font-family: 'robotomedium';
+    font-family: 'robotobold';
 }
 
-.avatar__one img,
-.avatar__two img,
-.avatar__three img, 
-.avatar__four img,
-.avatar__five img,
-.avatar__six img,
-.avatar__seven img,
-.avatar__eight img,
-.avatar__nine img,
-.avatar__ten img {
+.popular__img img,
+.new__img img,
+.active__img img {
+    width: 42px;
+    height: 42px;
+}
+
+.popular__img,
+.new__img,
+.active__img {
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.stream {
+    max-width: 597px;
+    font-family: 'robotobold';
+    width: 100%;
+}
+
+.post-alements--wrapper {
+    margin-top: 20px;
+}
+
+.post-social-links {
+    text-decoration: none;
+    display: flex;
+    float: right;
+    margin: 0px 20px;
+}
+
+.post-social-links img {
+    width: 22px;
+    height: 22px;
+    margin: 0px 0px 0px 10px;
+}
+
+.stream__foot p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.post-media {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+.section {
+    padding-left: 20px;
+}
+
+.stream__post {
+    margin-bottom: 24px;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.trending {
+    max-width: 328px;
+    background-color: #fff;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.news {
+    padding: 17px 22px;
+}
+
+.trending__list {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1.33px;
+    font-family: 'robotobold';
+}
+
+.header__list img {
     width: 68px;
     height: 68px;
 }
@@ -235,24 +296,42 @@ strong {
     font-family: 'noto_serifregular';
 }
 
-.popular {
-    margin-top: 10px;
-    background-color: #fff;
+.header__nav-item {
+    margin: 0;
 }
 
-.header__popular {
+.header__nav-item a {
+    font-family: 'noto_serifrbold';
     font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 1.33px;
-    font-family: 'robotomedium';
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #262626;
 }
 
-.popular__img img {
-    width: 42px;
-    height: 42px;
+.header__author {
+    font-family: 'noto_serifregular';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #989898;
+    display: block;
 }
 
-/* .popular__list {
+.header__author a {
+    text-decoration: underline;
+}
+
+.header__list {
     display: flex;
-} */
+    margin-bottom: 16px;
+}
 
+.header__img {
+    margin-right: 10px;
+}
