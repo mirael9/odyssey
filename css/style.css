@@ -282,6 +282,7 @@ strong {
     line-height: 32px;
     letter-spacing: 1.33px;
     font-family: 'robotobold';
+    margin-bottom: 23px;
 }
 
 .header__list img {
@@ -321,6 +322,7 @@ strong {
     letter-spacing: normal;
     color: #989898;
     display: block;
+    padding-top: 2px;
 }
 
 .header__author a {
@@ -334,4 +336,85 @@ strong {
 
 .header__img {
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .header__wrapper {
+        height: auto;
+    }
+
+    .wrapper {
+        display: block;
+        padding: 0;
+    }
+
+    .content {
+        display: block;
+        padding: 0;
+    }
+
+    .stream {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .user__profile {
+        display: block;
+    }
+
+    .network__header img {
+        width: 100%;
+    }
+
+    .header__user-controls {
+        padding-top: 12px;
+    }
+
+    .header__logo {
+        width: auto;
+        display: inline-block;
+        margin: 10px 0px 0;
+        font-size: 30px;
+        vertical-align: middle;
+    }
+
+    .header__menu img {
+        margin: -10px auto;
+    }
+
+    .network__bg {
+        display: inline-block;
+    }
+
+    .header__notification img {
+        width: 28px;
+        height: 32px;
+        margin: 0 5px;
+    }
+
+    .header__user-avatar img,
+    .header__users img,
+    .header__notification img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .write__post {
+        border: 10px solid #d8d8d8;
+        margin: 15px auto;
+    }
+
+    .stream__post {
+        margin-bottom: 15px;
+        padding: 5px 0;
+    }
+
+    .trending {
+        margin-left: 0;
+    }
 }
