@@ -12,7 +12,7 @@ body {
 
 .header__wrapper {
     box-shadow: 0 2px 4px 0 rgba(173, 173, 173, 0.5);
-    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #fff);
 }
 
 .header__logo {
